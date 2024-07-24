@@ -1,0 +1,10 @@
+Paso	Comando
+1. Crear entorno virtual--------->python -m venv nombre_del_entorno
+2. Activar entorno virtual (Windows)------------>nombre_del_entorno\Scripts\activate
+3. Instalar Django--------------->	pip install django
+4. Crear proyecto en carpeta actual--------------->django-admin startproject nombre_del_proyecto .
+5. Configurar base de datos (opcional)------------>	Editar settings.py
+6. Aplicar migraciones iniciales----------------->python manage.py migrate
+7. Crear superusuario (opcional)----------------->python manage.py createsuperuser
+8. Iniciar servidor de desarrollo---------------->python manage.py runserver
+9. Acceder al proyecto en el navegador	http://127.0.0.1:8000/
